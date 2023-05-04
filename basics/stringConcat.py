@@ -44,6 +44,7 @@ print(0b10)
 print(0x10)
 print(0o10)
 """
+print(r"C:\some\name")
 
 # print(5 * "Benny's Lecture\n")
 
