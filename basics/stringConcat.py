@@ -1,7 +1,9 @@
+"""
 print("Benny" + "Hinn")
 print("Benny" + " " + "Hinn")  # String concatenation
 print("String Manipulation excersise\nString concatenation is done with \"+\" sign\ne.g. print(\"hello\" + "
       "\"Jenny\")\nnew lines can be added with a backslash and 'n'")
+"""
 print()
 
 # Input functions
@@ -28,9 +30,20 @@ print("First number is %d and second number is %d" % (num1, num2))      # Output
 """
 
 # Swapping
-num1, num2 = input("Enter two Numbers consecutively:").split()
+"""num1, num2 = input("Enter two Numbers consecutively:").split()
 print("Num1 = %s\nNum2 = %s" % (num1, num2))
 temp = num1
 num1 = num2
 num2 = temp
 print("Num1 = %s\nNum2 = %s" % (num1, num2))
+"""
+
+"""print()
+print(10)
+print(0b10)
+print(0x10)
+print(0o10)
+"""
+
+# print(5 * "Benny's Lecture\n")
+
