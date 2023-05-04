@@ -23,4 +23,30 @@ else:
     print(f"{year} is not a leap year.\n")
 """
 
-# Pizza inn program
+# Pizza Inn program
+print("Welcome to Pizza inn\n")
+bill = 0
+size = input("Please input pizza size. (Small) (Medium) (Large): ").lower()
+
+if size == "small":
+    bill = 100
+    pepper = input("Add pepper? (Y) or (N): ").lower()
+    if pepper == "y":
+        bill = bill + 30
+elif size == "medium":
+    bill = 200
+    pepper = input("Add pepper? (Y) or (N): ").lower()
+    if pepper == "y":
+        bill = bill + 50
+else:
+    bill = 300
+    pepper = input("Add pepper? (Y) or (N): ").lower()
+    if pepper == "y":
+        bill = bill + 50
+
+cheese = input("Add Extra cheese? Choose(Y) or (N): ").lower()
+if cheese == "y":
+    bill = bill + 20
+
+print(f"Total bill is {bill}")
+print("Thank you for your order!")
