@@ -30,20 +30,20 @@ size = input("Please input pizza size. (Small) (Medium) (Large): ").lower()
 
 if size == "small":
     bill = 100
-    pepper = input("Add pepper? (Y) or (N): ").lower()
-    if pepper == "y":
-        bill = bill + 30
+    print("Small pizza price is ksh. 100")
 elif size == "medium":
     bill = 200
-    pepper = input("Add pepper? (Y) or (N): ").lower()
-    if pepper == "y":
-        bill = bill + 50
+    print("Medium pizza price is ksh. 200")
 else:
     bill = 300
-    pepper = input("Add pepper? (Y) or (N): ").lower()
-    if pepper == "y":
-        bill = bill + 50
+    print("Large pizza price is ksh. 300")
 
+add_Pepper = input("Add Pepper? (Y) or (N): ").lower()
+if add_Pepper == "y":
+    if size == "small":
+        bill += 30
+    else:
+        bill += 50
 cheese = input("Add Extra cheese? Choose(Y) or (N): ").lower()
 if cheese == "y":
     bill = bill + 20
